@@ -1,0 +1,24 @@
+{
+  "dutstr": {
+    "root": "/mnt/disk1/roger/ZoomNet/Training_dataset",
+    "image": {
+      "path": "img",
+      "suffix": ".jpg"
+    },
+    "mask": {
+      "path": "label_img",
+      "suffix": ".png"
+    }
+  },
+  "pascal-s": {
+    "root": "/mnt/disk1/yang/BiRefNet/datasets/SOD/Private_Public_dataset",
+    "image": {
+      "path": "im",
+      "suffix": ".jpg"
+    },
+    "mask": {
+      "path": "gt",
+      "suffix": ".png"
+    }
+  }
+}
