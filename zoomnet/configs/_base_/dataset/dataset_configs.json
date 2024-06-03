@@ -9,16 +9,5 @@
       "path": "label_img",
       "suffix": ".png"
     }
-  },
-  "pascal-s": {
-    "root": "/mnt/disk1/yang/BiRefNet/datasets/SOD/Private_Public_dataset",
-    "image": {
-      "path": "im",
-      "suffix": ".jpg"
-    },
-    "mask": {
-      "path": "gt",
-      "suffix": ".png"
-    }
   }
 }
