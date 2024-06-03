@@ -1,5 +1,7 @@
 # AICUP_2024_rank5
 
+https://drive.google.com/file/d/1OoHS2VgAaQ4hjT3Li4iJK1HVHCtaNb4I/view?usp=sharing
+google drive 中已經包含四者模型的輸出以及 zoomnet, unet, unet_refinement 的權重，若要使用於 testing, 麻煩更改模型中的權重位置。
 
 ## Restormer
 
