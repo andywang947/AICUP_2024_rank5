@@ -8,6 +8,7 @@ python train.py --stage 'test' --model_file './result_AICUP_ori/All.pth' --save_
 ```
 
 環境建置可參考原始 restormer 中 github 網址進行。
+本次我們選用 python 版本 3.8 運行。
 https://github.com/swz30/Restormer?tab=readme-ov-file
 
 ```
@@ -25,6 +26,7 @@ https://github.com/swz30/Restormer?tab=readme-ov-file
 python main.py --model-name=ZoomNet --config=configs/zoomnet/zoomnet.py --datasets-info ./configs/_base_/dataset/dataset_configs.json --info demo
 ```
 環境建置可參考原始 zoomnet 中 github 網址進行。
+本次我們選用 python 版本 3.8 進行。
 https://github.com/lartpang/ZoomNet
 
 ```
@@ -37,5 +39,9 @@ https://github.com/lartpang/ZoomNet
 ```
 
 ## UNet and UNet_refinement
-使用 python 環境 3.12.3
+使用 python 環境 3.12.3 版本運行。
+其中 train.py 和 train_change_weight.py 分別為原始 UNet 以及增強後的改良版 UNet.
+環境所需套件已經放入至 unet/requirement.txt, 可以進行套件安裝。
+```
 python train.py
+```
