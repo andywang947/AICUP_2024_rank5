@@ -47,3 +47,6 @@ https://github.com/lartpang/ZoomNet
 ```
 python train.py
 ```
+
+得到四者模型以後，再透過 voting.ipynb，將四者模型輸出給進行 voting，即得到最終結果。
+方便起見，也將最終輸出放置於上頭之雲端硬碟中。
